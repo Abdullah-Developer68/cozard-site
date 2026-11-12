@@ -3,6 +3,9 @@
 @import "@fontsource-variable/geist-mono";
 @import "@fontsource/caveat/600.css";
 
+/* Phones with little vertical room (e.g. iPhone SE with browser bars) */
+@custom-variant short (@media (max-width: 767px) and (max-height: 620px));
+
 @theme {
   /* Palette: drafting-table paper, ink, pencil graphite, a blue pen and a signal green */
   --color-paper: #f6f4ee;

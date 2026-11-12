@@ -5,13 +5,13 @@ const YEAR = new Date().getFullYear()
 
 export function Footer() {
   return (
-    <footer className="mx-auto grid max-w-[1200px] gap-10 border-t border-hair px-5 pb-10 pt-14 md:grid-cols-[1fr_170px_170px_170px] md:gap-6 md:px-1">
-      <div>
+    <footer className="mx-auto grid max-w-[1200px] gap-10 border-t border-hair px-5 pb-10 pt-14 sm:grid-cols-3 lg:grid-cols-[1fr_170px_170px_170px] lg:gap-6 md:px-1">
+      <div className="sm:col-span-3 lg:col-span-1">
         <Logo tone="muted" className="text-2xl" />
         <p className="mt-[18px] max-w-[280px] text-[13px] leading-[1.6] text-graphite">
           Web, mobile and backend development, with UI/UX design built in.
         </p>
-        <p className="mt-10 font-mono text-[11px] font-medium tracking-[0.06em] text-graphite md:mt-16">
+        <p className="mt-6 font-mono text-[11px] font-medium tracking-[0.06em] text-graphite lg:mt-16">
           © {YEAR} COZARD · ALL RIGHTS RESERVED
         </p>
       </div>

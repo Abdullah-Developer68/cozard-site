@@ -81,8 +81,6 @@ export const services: Service[] = [
 export type ToolGroup = {
   note: [string, string]
   icon: LucideIcon
-  /** Note on the left, chips on the right. */
-  flip?: boolean
   tools: Array<Omit<ChipProps, 'staggered'>>
 }
 
@@ -101,7 +99,6 @@ export const toolGroups: ToolGroup[] = [
   {
     note: ['frameworks', '& state'],
     icon: Layers,
-    flip: true,
     tools: [
       { logo: 'react', label: 'React.js' },
       { logo: 'nextjs', label: 'Next.js' },
@@ -127,7 +124,6 @@ export const toolGroups: ToolGroup[] = [
   {
     note: ['deployment &', 'version control'],
     icon: CloudUpload,
-    flip: true,
     tools: [
       { logo: 'vercel', label: 'Vercel' },
       { logo: 'git', label: 'Git' },
