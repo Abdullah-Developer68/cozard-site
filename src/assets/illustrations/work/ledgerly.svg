@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" preserveAspectRatio="xMidYMid slice" font-family="Geist Variable, Geist, system-ui, sans-serif" role="img" aria-label="Ledgerly invoicing dashboard">
+<defs><pattern id="ldg-dot" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#D9D5CA"/></pattern></defs>
+<rect width="480" height="300" fill="#F1EEE6"/><rect width="480" height="300" fill="url(#ldg-dot)"/>
+<g transform="translate(30 30)">
+<rect x="0" y="0" width="356" height="290" rx="12" fill="#fff" stroke="#DAD6CB"/>
+<path d="M0.5 12A11.5 11.5 0 0 1 12 0.5h332A11.5 11.5 0 0 1 355.5 12v14H0.5z" fill="#F6F4EE"/>
+<circle cx="14" cy="13" r="3.5" fill="#EC6A5E"/><circle cx="26" cy="13" r="3.5" fill="#F4BF4F"/><circle cx="38" cy="13" r="3.5" fill="#61C554"/>
+<rect x="118" y="6.5" width="120" height="13" rx="4" fill="#fff" stroke="#E2DFD6"/>
+<text x="178" y="15.8" text-anchor="middle" font-size="7.5" fill="#8C8A84">app.ledgerly.io</text>
+<line x1="0" y1="26.5" x2="356" y2="26.5" stroke="#E2DFD6"/>
+<rect x="0.5" y="27" width="88" height="262" fill="#FBFAF7"/><line x1="88.5" y1="27" x2="88.5" y2="290" stroke="#E2DFD6"/>
+<rect x="12" y="38" width="15" height="15" rx="4" fill="#141414"/><path d="M17 42v7h6" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="32" y="49.5" font-size="10.5" font-weight="600" fill="#141414" letter-spacing="-.3">Ledgerly</text>
+<text x="16" y="79" font-size="9" fill="#55534E">Overview</text>
+<rect x="8" y="88" width="72" height="20" rx="5" fill="#EFECE4"/><text x="16" y="101.5" font-size="9" font-weight="600" fill="#141414">Invoices</text>
+<text x="16" y="126" font-size="9" fill="#55534E">Clients</text>
+<text x="16" y="150" font-size="9" fill="#55534E">Expenses</text>
+<text x="16" y="174" font-size="9" fill="#55534E">Reports</text>
+<circle cx="20" cy="252" r="8" fill="#2C5A8C"/><text x="20" y="254.6" text-anchor="middle" font-size="6.5" font-weight="600" fill="#fff">MK</text>
+<text x="33" y="255" font-size="8.5" fill="#141414">Maya Kerr</text>
+<text x="104" y="48" font-family="Geist Mono Variable, Geist Mono, monospace" font-size="7.5" letter-spacing=".8" fill="#8C8A84">REVENUE · NOVEMBER</text>
+<text x="104" y="75" font-size="24" font-weight="500" letter-spacing="-1" fill="#141414">$48,210</text>
+<rect x="200" y="61" width="40" height="16" rx="8" fill="#E4F3EB"/><text x="220" y="72" text-anchor="middle" font-size="8.5" font-weight="600" fill="#1E9E5A">+18%</text>
+<g fill="#E2DFD6"><rect x="104" y="118" width="16" height="22" rx="2"/><rect x="130" y="110" width="16" height="30" rx="2"/><rect x="156" y="114" width="16" height="26" rx="2"/><rect x="182" y="102" width="16" height="38" rx="2"/><rect x="208" y="106" width="16" height="34" rx="2"/><rect x="234" y="96" width="16" height="44" rx="2"/><rect x="260" y="100" width="16" height="40" rx="2"/><rect x="286" y="88" width="16" height="52" rx="2"/></g>
+<rect x="312" y="76" width="16" height="64" rx="2" fill="#141414"/>
+<line x1="104" y1="140.5" x2="340" y2="140.5" stroke="#E2DFD6"/>
+<g font-size="9">
+<text x="104" y="178" font-family="Geist Mono Variable, Geist Mono, monospace" font-size="8" fill="#8C8A84">INV-0142</text><text x="156" y="178" fill="#141414">Northwind Studio</text><text x="262" y="178" font-weight="600" fill="#141414">$2,400</text>
+<line x1="104" y1="192.5" x2="340" y2="192.5" stroke="#EFECE4"/>
+<text x="104" y="206" font-family="Geist Mono Variable, Geist Mono, monospace" font-size="8" fill="#8C8A84">INV-0141</text><text x="156" y="206" fill="#141414">Hale &amp; Partners</text><text x="262" y="206" font-weight="600" fill="#141414">$860</text>
+<line x1="104" y1="220.5" x2="340" y2="220.5" stroke="#EFECE4"/>
+<text x="104" y="234" font-family="Geist Mono Variable, Geist Mono, monospace" font-size="8" fill="#8C8A84">INV-0140</text><text x="156" y="234" fill="#141414">Oakline Coffee</text><text x="262" y="234" font-weight="600" fill="#141414">$1,120</text>
+<line x1="104" y1="248.5" x2="340" y2="248.5" stroke="#EFECE4"/>
+<text x="104" y="262" font-family="Geist Mono Variable, Geist Mono, monospace" font-size="8" fill="#8C8A84">INV-0139</text><text x="156" y="262" fill="#141414">Pine Labs</text><text x="262" y="262" font-weight="600" fill="#141414">$3,050</text>
+</g>
+<rect x="300" y="168" width="38" height="15" rx="7.5" fill="#E4F3EB"/><text x="319" y="178.2" text-anchor="middle" font-size="8" font-weight="600" fill="#1E9E5A">Paid</text>
+<rect x="300" y="196" width="38" height="15" rx="7.5" fill="#E6EDF5"/><text x="319" y="206.2" text-anchor="middle" font-size="8" font-weight="600" fill="#2C5A8C">Sent</text>
+</g>
+<g transform="translate(318 230)">
+<rect x="4" y="4" width="142" height="54" rx="7" fill="#141414"/>
+<rect x="0" y="0" width="142" height="54" rx="7" fill="#fff" stroke="#141414" stroke-width="1.5"/>
+<circle cx="21" cy="27" r="10" fill="#1E9E5A"/><path d="M16 27l3.5 3.5 6.5-7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="38" y="24" font-size="10.5" font-weight="600" fill="#141414">Invoice paid</text>
+<text x="38" y="38" font-size="8.5" fill="#8C8A84">$2,400 · Northwind</text>
+</g>
+<text font-family="Caveat, cursive" font-size="19" font-weight="600" fill="#2C5A8C" transform="translate(400 62) rotate(-6)"><tspan x="0" y="0">paid in</tspan><tspan x="4" y="18">2 days</tspan></text>
+<path d="M436 100 C 456 140, 420 170, 430 220" fill="none" stroke="#2C5A8C" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 6"/>
+<path d="M430 220 l-7 -8 M430 220 l4 -10" fill="none" stroke="#2C5A8C" stroke-width="2" stroke-linecap="round"/>
+</svg>

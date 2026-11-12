@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" preserveAspectRatio="xMidYMid slice" font-family="Geist Variable, Geist, system-ui, sans-serif" role="img" aria-label="Parcel shipping API logs and latency">
+<defs><pattern id="pc-dot" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#D9D5CA"/></pattern></defs>
+<rect width="480" height="300" fill="#F6F4EE"/><rect width="480" height="300" fill="url(#pc-dot)"/>
+<g transform="translate(28 34)">
+<rect x="0" y="0" width="316" height="280" rx="12" fill="#141414"/>
+<circle cx="14" cy="13" r="3.5" fill="#3A3A3C"/><circle cx="26" cy="13" r="3.5" fill="#3A3A3C"/><circle cx="38" cy="13" r="3.5" fill="#3A3A3C"/>
+<text x="158" y="16" text-anchor="middle" font-family="Geist Mono Variable, Geist Mono, monospace" font-size="8" fill="#8C8A84">parcel-api — logs</text>
+<line x1="0" y1="26.5" x2="316" y2="26.5" stroke="#2A2A2C"/>
+<g font-family="Geist Mono Variable, Geist Mono, monospace" font-size="9">
+<text x="16" y="52"><tspan fill="#4CC38A">GET </tspan><tspan fill="#E2DFD6"> /v3/parcels/PX-2201</tspan><tspan x="214" fill="#fff">200</tspan><tspan x="246" fill="#8C8A84">41ms</tspan></text>
+<text x="16" y="72"><tspan fill="#7FA6D6">POST</tspan><tspan fill="#E2DFD6"> /v3/labels</tspan><tspan x="214" fill="#fff">201</tspan><tspan x="246" fill="#8C8A84">88ms</tspan></text>
+<text x="16" y="92"><tspan fill="#4CC38A">GET </tspan><tspan fill="#E2DFD6"> /v3/track/PX-2198</tspan><tspan x="214" fill="#fff">200</tspan><tspan x="246" fill="#8C8A84">36ms</tspan></text>
+<text x="16" y="112"><tspan fill="#D9D5CA">PUT </tspan><tspan fill="#E2DFD6"> /v3/parcels/PX-2201</tspan><tspan x="214" fill="#fff">200</tspan><tspan x="246" fill="#8C8A84">52ms</tspan></text>
+<text x="16" y="132"><tspan fill="#7FA6D6">POST</tspan><tspan fill="#E2DFD6"> /v3/webhooks/courier</tspan><tspan x="214" fill="#fff">202</tspan><tspan x="246" fill="#8C8A84">19ms</tspan></text>
+<text x="16" y="152"><tspan fill="#4CC38A">GET </tspan><tspan fill="#E2DFD6"> /v3/rates?zone=4</tspan><tspan x="214" fill="#fff">200</tspan><tspan x="246" fill="#8C8A84">28ms</tspan></text>
+<text x="16" y="172"><tspan fill="#4CC38A">GET </tspan><tspan fill="#E2DFD6"> /v3/track/PX-2204</tspan><tspan x="214" fill="#fff">200</tspan><tspan x="246" fill="#8C8A84">33ms</tspan></text>
+<text x="16" y="198" fill="#8C8A84">› deploy v3.14.2 · eu-west-1 · healthy</text>
+<text x="16" y="218"><tspan fill="#4CC38A">$</tspan><tspan fill="#E2DFD6"> </tspan></text>
+</g>
+<rect x="28" y="210" width="6" height="11" fill="#E2DFD6"/>
+</g>
+<g transform="translate(300 44)">
+<rect x="4" y="4" width="152" height="100" rx="8" fill="#141414"/>
+<rect x="0" y="0" width="152" height="100" rx="8" fill="#fff" stroke="#141414" stroke-width="1.5"/>
+<text x="14" y="22" font-family="Geist Mono Variable, Geist Mono, monospace" font-size="7.5" letter-spacing=".8" fill="#8C8A84">P95 LATENCY · 24H</text>
+<text x="14" y="48" font-size="24" font-weight="500" letter-spacing="-1" fill="#141414">84<tspan font-size="12" fill="#8C8A84"> ms</tspan></text>
+<polyline points="14,84 28,78 42,81 56,72 70,76 84,66 98,70 112,62 126,64 138,58" fill="none" stroke="#2C5A8C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="138" cy="58" r="3" fill="#2C5A8C"/>
+<line x1="14" y1="90.5" x2="138" y2="90.5" stroke="#E2DFD6"/>
+</g>
+<g transform="translate(316 196)">
+<rect x="4" y="4" width="140" height="56" rx="8" fill="#141414"/>
+<rect x="0" y="0" width="140" height="56" rx="8" fill="#fff" stroke="#141414" stroke-width="1.5"/>
+<text x="14" y="25" font-size="13" font-weight="600" letter-spacing="-.4" fill="#141414">2.1M <tspan font-size="9" font-weight="400" fill="#8C8A84">requests / day</tspan></text>
+<circle cx="18" cy="40" r="3" fill="#1E9E5A"/><text x="26" y="43" font-size="8" fill="#1E9E5A" font-weight="600">All systems normal</text>
+</g>
+<text font-family="Caveat, cursive" font-size="18" font-weight="600" fill="#2C5A8C" transform="translate(372 180) rotate(-5)">99.98% uptime</text>
+</svg>

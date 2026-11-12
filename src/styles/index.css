@@ -1,0 +1,63 @@
+@import "tailwindcss";
+@import "@fontsource-variable/geist";
+@import "@fontsource-variable/geist-mono";
+@import "@fontsource/caveat/600.css";
+
+@theme {
+  /* Palette: drafting-table paper, ink, pencil graphite, a blue pen and a signal green */
+  --color-paper: #f6f4ee;
+  --color-card: #ffffff;
+  --color-ink: #141414;
+  --color-graphite: #8c8a84;
+  --color-body: #55534e;
+  --color-muted: #4a4945;
+  --color-hair: #e2dfd6;
+  --color-dot: #d9d5ca;
+  --color-line: #dad6cb;
+  --color-line-strong: #d3cfc4;
+  --color-sand: #f1eee6;
+  --color-sand-deep: #efece4;
+  --color-panel: #fbfaf7;
+  --color-pen: #2c5a8c;
+  --color-signal: #1e9e5a;
+  --color-device: #1c1c1e;
+  --color-device-edge: #3a3a3c;
+
+  --font-sans: "Geist Variable", "Geist", system-ui, sans-serif;
+  --font-mono: "Geist Mono Variable", "Geist Mono", ui-monospace, monospace;
+  --font-hand: "Caveat", cursive;
+
+  --shadow-hard: 3px 3px 0 var(--color-ink);
+  --shadow-hard-sm: 2px 2px 0 var(--color-ink);
+  --shadow-lift: 0 18px 30px -22px rgb(20 20 20 / 0.4);
+  --shadow-window: 0 30px 60px -30px rgb(20 20 20 / 0.25);
+
+  --ease-soft: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-paper font-sans text-ink antialiased;
+    background-image: radial-gradient(var(--color-dot) 1px, transparent 1.3px);
+    background-size: 22px 22px;
+  }
+  ::selection {
+    background: var(--color-pen);
+    color: #fff;
+  }
+}
+
+/* Drafting hatch used as decoration around the device stage */
+@utility bg-hatch {
+  border: 1px solid var(--color-hair);
+  background: repeating-linear-gradient(90deg, transparent 0 7px, rgb(140 138 132 / 0.16) 7px 8px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
